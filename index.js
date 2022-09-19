@@ -2,12 +2,12 @@ const parentList = [];
 
 let currentElement = document.querySelector('cite');
 
-let currentElementName = currentElement.nodeName
-console.log(currentElementName);
+// let currentElementName = currentElement.nodeName
+// console.log(currentElementName);
 
-parentList.unshift(currentElementName.toLowerCase())
+// parentList.unshift(currentElementName.toLowerCase())
 
-currentElement = currentElement.parentElement
+// currentElement = currentElement.parentElement
 
 while (currentElement) {
     let currentElementName = currentElement.nodeName;
